@@ -1,0 +1,15 @@
+{
+  "name": "typescript-first",
+  "version": "1.0.0",
+  "description": "```txt http://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cp src/index.html dist/ && http-server -c-1 -p 8888 dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
